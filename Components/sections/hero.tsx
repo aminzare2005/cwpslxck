@@ -20,7 +20,7 @@ function Hero() {
             draggable="false"
             className="rounded-xl"
             alt="Profile Picture"
-            src={"https://github.com/cwpslxck.png"}
+            src={"https://github.com/aminzare2005.png"}
             width={100}
             height={100}
           />

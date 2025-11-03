@@ -1,4 +1,4 @@
 import { redirect } from "next/navigation";
 export default function page() {
-  redirect("https://github.com/cwpslxck");
+  redirect("https://github.com/aminzare2005");
 }
