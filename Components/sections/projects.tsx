@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Link2Icon } from "lucide-react";
 
-function Edu() {
+function Projects() {
   return (
     <Section
       title="Projects"
@@ -76,4 +76,4 @@ function Edu() {
   );
 }
 
-export default Edu;
+export default Projects;

@@ -5,7 +5,8 @@ import Work from "@/Components/sections/work";
 import Status from "@/Components/sections/status";
 import Timeline from "@/Components/sections/timeline";
 import Connect from "@/Components/sections/connect";
-import Edu from "@/Components/sections/projects";
+import Projects from "@/Components/sections/projects";
+import Education from "@/Components/sections/education";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       <About />
       <Skills />
       <Work />
-      <Edu />
+      <Projects />
+      <Education />
       <Status />
       <Timeline />
       <Connect />
