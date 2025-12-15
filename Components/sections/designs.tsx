@@ -5,16 +5,15 @@ import Link from "next/link";
 
 function DesignsSection() {
   return (
-    <Section classNameWrapper="-m-5 -mt-6.5" className="relative">
+    <Section classNameWrapper="-m-5" className="relative">
       <div className="w-full min-h-44 overflow-hidden group">
-        <div className="absolute h-full w-full bg-gradient-to-b from-background/40 via-background/90 to-background p-3 z-10">
+        <div className="absolute h-full w-full bg-gradient-to-b from-white/40 via-white/90 to-white p-3 z-10">
           <div className="w-full h-full flex justify-center items-end font-black text-2xl">
             <Link
               href={"/design"}
-              className="inline-flex items-center justify-center gap-1 p-4 group-hover:text-blue-500 duration-150"
+              className="inline-flex items-center justify-center hover:underline gap-1 p-4"
             >
-              <Link2Icon size={30} />
-              VISIT DESIGNS PAGE
+              ✶ مشاهده طراحی‌های من
             </Link>
           </div>
         </div>

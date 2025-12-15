@@ -12,7 +12,7 @@ function Skills() {
     "ShadcnUI",
   ];
   return (
-    <Section title="Skills">
+    <Section title="مهارت‌ها">
       <div className="w-full flex justify-center flex-wrap gap-2">
         {soft_skills.map((s, i) => (
           <div

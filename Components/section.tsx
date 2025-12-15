@@ -24,7 +24,7 @@ function Section({
     >
       {title && (
         <motion.p
-          className="font-black text-2xl pb-1.5"
+          className="font-bold text-2xl pb-1.5"
           initial={{ opacity: 0, x: -10 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}

@@ -25,7 +25,7 @@ export const GALLERY_ITEMS = [
   },
   {
     title: "Story banner for FINGER CODER: CODE NEST",
-    url: "/gallery/7.png",
+    url: "/gallery/7.jpg",
   },
   {
     title: "Logo design for @YXNSTUDIO",
@@ -35,39 +35,43 @@ export const GALLERY_ITEMS = [
     title: "Avatar design for @PERSIANGENZ",
     url: "/gallery/9.png",
   },
+  {
+    title: "Banner of FINGER CODER: PROMPT DESIGN",
+    url: "/gallery/10.png",
+  },
 ];
 
 export const WORK_ITEMS = [
   {
     compony: "YXN Studio",
-    position: "Co-Founder, Frontend Developer",
-    description: "digital creative studio that builds cool apps and landing pages",
+    position: "فاندر، فرانت‌اند دولوپر",
+    description: "استودیو خلاقیت دیجیتال با تمرکز بر ساخت اپ و لندینگ پیج",
     image: "/images/yxn.png",
-    link: { title: "Linkedin", href: "https://www.linkedin.com/company/yxn" },
+    link: { title: "‌وای‌ایکس‌ان", href: "https://www.linkedin.com/company/yxn" },
   },
   {
     compony: "LearnPOV",
-    position: "Frontend Developer",
-    description: "social learning network for sharing knowledge and growing together",
+    position: "فرانت‌اند دولوپر",
+    description: "شبکه اجتماعی یادگیری محور برای به اشتراک گذاشتن دانش و رشد مشترک",
     image: "/images/learnpov.jpg",
-    link: { title: "App", href: "https://learnpov.com" },
+    link: { title: "لرن‌پی‌اووی", href: "https://learnpov.com" },
   },
 ];
 
 export const PROJECTS_ITEMS = [
   {
-    title: "BasicNote",
-    description: "simple local-first todo app with cool uiux",
+    title: "بیسیک نوت",
+    description: "اپ نوت با ذخیره‌سازی لوکال",
     image: "https://raw.githubusercontent.com/cwpslxck/basicnote/refs/heads/main/Preview.jpg",
-    link: { title: "Github", href: "https://github.com/cwpslxck/basicnote" },
+    link: { title: "گیتهاب", href: "https://github.com/cwpslxck/basicnote" },
     items: ["nextjs", 'tailwindcss']
   },
   {
-    title: "@vlonefarsi Shop",
-    description: "e-commerce app works with supabase & zibal built with v0",
+    title: "فروشگاه ویلون فارسی",
+    description: "اپ فروشگاهی متصل به درگاه پرداخت",
     image: "https://raw.githubusercontent.com/cwpslxck/to-farsi/refs/heads/main/Preview.jpg",
     video: 'https://vlonefarsi-phonecase.storage.iran.liara.space/portfolio/vlonefarsi.mp4',
-    link: { title: "App", href: "https://vlonefarsi.ir" },
+    link: { title: "وبسایت", href: "https://vlonefarsi.ir" },
     items: ["nextjs", 'supabase', 'shadcnui'],
   },
   // {

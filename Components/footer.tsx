@@ -3,8 +3,8 @@ import {
   GithubIcon,
   HouseIcon,
   ImagesIcon,
+  InstagramIcon,
   LinkedinIcon,
-  TwitterIcon,
 } from "lucide-react";
 import { BsTwitterX } from "react-icons/bs";
 
@@ -34,6 +34,12 @@ const menuItems = [
     external: true,
   },
   {
+    title: "Visit my Instagram",
+    href: "/instagram",
+    icon: <InstagramIcon />,
+    external: true,
+  },
+  {
     title: "Visit my X (Twitter)",
     href: "/x",
     icon: <BsTwitterX />,
@@ -43,8 +49,11 @@ const menuItems = [
 
 function Footer() {
   return (
-    <div className="w-full px-2 md:px-0 right-0 left-0 pb-4 z-50 flex justify-center fixed bottom-0 bg-gradient-to-b from-transparent to-white">
-      <div className="bg-white/5 px-6 border text-black max-w-xl text-xl border-black/10 backdrop-blur-xl rounded-full h-14 w-full flex justify-between items-center">
+    <div className="w-full px-2 md:px-0 right-0 left-0 py-4 z-50 flex justify-center fixed bottom-0 bg-gradient-to-b from-transparent via-white/30 to-white">
+      <div
+        dir="ltr"
+        className="bg-white/40 px-6 border text-black max-w-xl text-xl border-black/10 backdrop-blur-xl rounded-full h-14 w-full flex justify-between items-center"
+      >
         {menuItems.map((item, index) => (
           <Link
             key={index}

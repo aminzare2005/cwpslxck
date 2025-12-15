@@ -7,7 +7,7 @@ import { Link2Icon } from "lucide-react";
 
 function Work() {
   return (
-    <Section classNameWrapper="flex flex-col gap-4" title="Work Experience">
+    <Section classNameWrapper="flex flex-col gap-4">
       {WORK_ITEMS.map((item, i) => (
         <div
           key={i}
@@ -39,7 +39,7 @@ function Work() {
               href={item.link.href}
             >
               <Link2Icon size={18} />
-              {"Visit "}
+              {"مشاهده "}
               {item.link.title}
             </Link>
           </div>

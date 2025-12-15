@@ -6,10 +6,7 @@ import { Link2Icon } from "lucide-react";
 
 function Projects() {
   return (
-    <Section
-      title="Projects"
-      classNameWrapper="grid grid-cols-1 md:grid-cols-2 gap-4"
-    >
+    <Section classNameWrapper="grid grid-cols-1 md:grid-cols-2 gap-4">
       {PROJECTS_ITEMS.map((item, i) => (
         <div
           key={i}
@@ -44,7 +41,7 @@ function Projects() {
             </div>
             <div className="flex flex-col px-4 gap-0.5">
               <span className="font-semibold text-lg">{item.title}</span>
-              <div className="inline-flex w-full justify-start gap-2 flex-wrap">
+              <div className="inline-flex w-full justify-start rtl:justify-end gap-2 flex-wrap">
                 {item.items.map((ii, i) => (
                   <div
                     className="px-1.5 font-mono py-0.5 border text-sm rounded-sm"
@@ -66,7 +63,7 @@ function Projects() {
               href={item.link.href}
             >
               <Link2Icon size={18} />
-              {"Visit "}
+              {"مشاهده "}
               {item.link.title}
             </Link>
           </div>
