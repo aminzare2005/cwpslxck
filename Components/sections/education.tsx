@@ -19,18 +19,18 @@ function Education() {
               className="size-12 rounded-lg"
             />
             <div className="flex flex-col">
-              <span className="font-semibold">مدیرمحصول هوش مصنوعی</span>
-              <span className="tracking-wider text-sm font-extralight opacity-85">
-                بوتکمپ تورینگ - be5t.ir
+              <span className="font-semibold">AIPM</span>
+              <span className="tracking-wider text-sm font-light opacity-85">
+                Touring bootcamp- be5t.ir
               </span>
             </div>
           </div>
         </div>
         <div className="w-full">
           <p className="opacity-85">
-            در این بوت کمپ اصول اولیه مدیریت محصول و AIPM رو یاد گرفتم،
-            <br />و در قالب یک تیم، یک اپ چت‌بات رو با راهنمایی منتورها از ایده
-            تا اجرا ساختیم.
+            In this bootcamp, I learned product management basics and AIPM,
+            <br />
+            and we built a chatbot app from idea to launch
           </p>
           <Link
             className="self-start py-1 gap-1 flex justify-start text-blue-500 items-center text-sm"
@@ -40,7 +40,7 @@ function Education() {
             }
           >
             <Link2Icon size={18} />
-            اعتبارسنجی مدرک
+            visit certificate
           </Link>
         </div>
       </div>

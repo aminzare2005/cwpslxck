@@ -12,16 +12,16 @@ function About() {
         target="_blank"
       >
         <Download size={18} />
-        <h2>دانلود فایل رزومه من</h2>
+        <h2>Download My Resume File</h2>
       </Link>
       <div className="opacity-90 text-center">
-        من درحال حاضر روی ساخت و توسعه چندین استارتاپ و محصول
+        I’m currently growing several startups and products
         <br />
-        در فیلدهای فرانت‌اند و مدیرمحصول کار میکنم.
+        as frontend developer and product manager.
         <br />
-        درکنارش بصورت پاره‌وقت برای برندهای اینستاگرامی و کامیونیتی‌ها
+        Alongside that, I work part-time with Instagram brands and communities
         <br />
-        تولیدمحتوا، طراحی گرافیکی و ادیت ویدیو انجام میدم.
+        creating content, graphic design, and video editing.
       </div>
     </Section>
   );

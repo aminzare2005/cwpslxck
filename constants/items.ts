@@ -44,35 +44,36 @@ export const GALLERY_ITEMS = [
 export const WORK_ITEMS = [
   {
     compony: "YXN Studio",
-    position: "فاندر، فرانت‌اند دولوپر",
-    description: "استودیو خلاقیت دیجیتال با تمرکز بر ساخت اپ و لندینگ پیج",
+    position: "Founder, Frontend Developer",
+    description: "digital creative studio with focus on building cool apps",
     image: "/images/yxn.png",
-    link: { title: "‌وای‌ایکس‌ان", href: "https://www.linkedin.com/company/yxn" },
+    link: { title: "yxn", href: "https://www.linkedin.com/company/yxn" },
   },
   {
     compony: "LearnPOV",
-    position: "فرانت‌اند دولوپر",
-    description: "شبکه اجتماعی یادگیری محور برای به اشتراک گذاشتن دانش و رشد مشترک",
+    position: "Frontend Developer",
+    description:
+      "A social learning network for sharing knowledge and growing together",
     image: "/images/learnpov.jpg",
-    link: { title: "لرن‌پی‌اووی", href: "https://learnpov.com" },
+    link: { title: "learnpov", href: "https://learnpov.com" },
   },
 ];
 
 export const PROJECTS_ITEMS = [
   {
-    title: "بیسیک نوت",
-    description: "اپ نوت با ذخیره‌سازی لوکال",
-    image: "https://raw.githubusercontent.com/cwpslxck/basicnote/refs/heads/main/Preview.jpg",
-    link: { title: "گیتهاب", href: "https://github.com/cwpslxck/basicnote" },
-    items: ["nextjs", 'tailwindcss']
+    title: "@vlonefarsi website",
+    description: "serverless e-commerce app",
+    image: "https://raw.githubusercontent.com/cwpslxck/vlonefarsi/refs/heads/main/Preview.jpg",
+    video: 'https://vlonefarsi-phonecase.storage.iran.liara.space/portfolio/vlonefarsi.mp4',
+    link: { title: "app", href: "https://vlonefarsi.ir" },
+    items: ["nextjs", 'supabase', 'shadcnui'],
   },
   {
-    title: "فروشگاه ویلون فارسی",
-    description: "اپ فروشگاهی متصل به درگاه پرداخت",
-    image: "https://raw.githubusercontent.com/cwpslxck/to-farsi/refs/heads/main/Preview.jpg",
-    video: 'https://vlonefarsi-phonecase.storage.iran.liara.space/portfolio/vlonefarsi.mp4',
-    link: { title: "وبسایت", href: "https://vlonefarsi.ir" },
-    items: ["nextjs", 'supabase', 'shadcnui'],
+    title: "BasicNote",
+    description: "Local-first note app with cool UI",
+    image: "https://raw.githubusercontent.com/cwpslxck/basicnote/refs/heads/main/Preview.jpg",
+    link: { title: "github", href: "https://github.com/cwpslxck/basicnote" },
+    items: ["nextjs", 'tailwindcss']
   },
   // {
   //   title: "To-Farsi",

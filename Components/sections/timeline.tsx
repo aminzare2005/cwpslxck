@@ -11,10 +11,10 @@ function Timeline() {
           <div className="timeline-middle text-2xl">✶</div>
           <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2020</time>
-            <div className="text-lg font-bold">شروع همه چیز</div>
+            <div className="text-lg font-bold">Where it began</div>
             <p>
-              یه دوره آموزشی پریمیر پرو خریدم و مسیر تدوین رو بصورت جدی بعد از
-              چند مدت ادیت با موبایل استارت زدم
+              I bought a Premiere Pro course and started editing journey after
+              few months of mobile edits.
             </p>
           </div>
           <hr />
@@ -24,10 +24,10 @@ function Timeline() {
           <div className="timeline-middle text-2xl">✶</div>
           <div className="timeline-end md:mb-10">
             <time className="font-mono italic">2021</time>
-            <div className="text-lg font-bold">مسیر برنامه نویسی</div>
+            <div className="text-lg font-bold">Coding path</div>
             <p>
-              توی تعطیلات کرونا من سراغ یادگیری برنامه نویسی برای ساخت سرور گیم
-              آنلاین رفتم
+              During COVID, I started learning code to build an online
+              game server.
             </p>
           </div>
           <hr />
@@ -37,10 +37,10 @@ function Timeline() {
           <div className="timeline-middle text-2xl">✶</div>
           <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2023</time>
-            <div className="text-lg font-bold">تلاش برای پیداکردن علاقه</div>
+            <div className="text-lg font-bold">Finding my interest</div>
             <p>
-              نتیجه اولین تلاش‌ها برای کسب درامد شد چندتا برند اینستاگرامی که
-              میلیون‌ها ایمپرشن گرفتن
+              My first income attempts turned into a few Instagram brands that
+              got millions of views.
             </p>
           </div>
           <hr />
@@ -50,10 +50,9 @@ function Timeline() {
           <div className="timeline-middle text-2xl">✶</div>
           <div className="timeline-end md:mb-10">
             <time className="font-mono italic">2024</time>
-            <div className="text-lg font-bold">زمان درآمدزایی</div>
+            <div className="text-lg font-bold">Time to earn</div>
             <p>
-              شروع به یادگیری تکنولوژی‌های مدرن فرانت کردم و به Next و Tailwind
-              مسلط شدم
+              I began learning modern frontend tech like nextjs & tailwind & expo
             </p>
           </div>
           <hr />
@@ -63,11 +62,13 @@ function Timeline() {
           <div className="timeline-middle text-2xl">✶</div>
           <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2025</time>
-            <div className="text-lg font-bold">آغاز مسیر شغلی واقعی</div>
+            <div className="text-lg font-bold">Real career starts</div>
             <p>
-              جوین شدن به استارتاپ‌های مختلف،
+              Joined different startups,
               <br />
-              ایجاد کانکشن، بوتکمپ، فعالیت های هنری، آغاز مسیر پروداکت
+              made connections, bootcamps, art school,
+              <br />
+              and product management.
             </p>
           </div>
           <hr />
@@ -78,6 +79,7 @@ function Timeline() {
             <Image
               src={"/assets/new-year.gif"}
               alt="New Year Gif"
+              draggable='false'
               height={70}
               width={70}
               className="h-32 w-auto"
@@ -86,9 +88,10 @@ function Timeline() {
           <div className="timeline-middle text-2xl">✶</div>
           <div className="timeline-end md:mb-10">
             <time className="font-mono italic">2026</time>
-            <div className="text-lg font-bold">سال سرنوشت ساز!</div>
-            <p>
-              لانچ پروداکت‌های مختلف، تیم سازی، ورود جدی به دنیای کسب و کارها
+            <div className="text-lg font-bold">A defining year!</div>
+            <p>Launching products, building teams, going all-in on business,
+              <br />
+              and maybe documenting on livestreams!
             </p>
           </div>
           {/* <hr /> */}

@@ -6,9 +6,9 @@ function Connect() {
   return (
     <Section>
       <div className="flex flex-col items-center gap-3 py-6">
-        <p className="text-3xl md:text-4xl font-bold">همکاری با من</p>
+        <p className="text-3xl md:text-4xl font-bold">Collabrate with me</p>
         <p className="text-center text-base md:text-xl">
-          بامن از طریق ایمیل
+          contact me via
           <br />
           <a
             title="Email me for projects & connection"
@@ -17,9 +17,9 @@ function Connect() {
           >
             2005aminzare@gmail.com
           </a>{" "}
-          یا
+          or
           <br />
-          لینکدین و اینستاگرام در ارتباط باشید
+          connect with me on linkedin & instagram
         </p>
         <div
           dir="ltr"

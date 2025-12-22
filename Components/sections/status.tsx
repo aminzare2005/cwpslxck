@@ -12,13 +12,13 @@ function Status() {
           >
             +180
           </div>
-          <p>فالوور گیتهاب</p>
+          <p>Github Follower</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div dir="ltr" className="md:text-7xl text-5xl font-extrabold tracking-tight drop-shadow-xl">
             +2400
           </div>
-          <p>فالوور اینستاگرام</p>
+          <p>Instagram Follower</p>
         </div>
       </div>
     </Section>

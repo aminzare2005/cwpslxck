@@ -63,7 +63,7 @@ function Projects() {
               href={item.link.href}
             >
               <Link2Icon size={18} />
-              {"مشاهده "}
+              {"visit "}
               {item.link.title}
             </Link>
           </div>

@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Rubik, Space_Grotesk } from "next/font/google";
+import { Inter, Rubik, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Footer from "@/Components/footer";
-import { Analytics } from "@vercel/analytics/next";
 
-const font = Rubik({
-  subsets: ["arabic"],
+const font = Inter({
+  subsets: ["latin"],
   display: "swap",
 });
 
@@ -82,8 +81,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Analytics />
-      <body dir="rtl" className={`${font.className} antialiased w-full`}>
+      <body className={`${font.className} antialiased w-full`}>
         <main className="px-2 py-10 md:py-28">
           <div className="w-full md:max-w-2xl md:mx-auto">{children}</div>
         </main>

@@ -25,7 +25,7 @@ function Work() {
               />
               <div className="flex flex-col">
                 <span className="font-semibold">{item.position}</span>
-                <span className="tracking-wider text-sm font-extralight opacity-85">
+                <span className="tracking-wider text-sm font-light opacity-85">
                   {item.compony}
                 </span>
               </div>
@@ -39,7 +39,7 @@ function Work() {
               href={item.link.href}
             >
               <Link2Icon size={18} />
-              {"مشاهده "}
+              {"visit "}
               {item.link.title}
             </Link>
           </div>
