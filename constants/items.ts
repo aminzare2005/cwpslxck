@@ -62,7 +62,7 @@ export const WORK_ITEMS = [
     position: "Founder, Frontend Developer",
     description: "official website of vlonefarsi instagram brands",
     image: "/images/vlonefarsi.jpg",
-    link: { title: "vlonefarsi", href: "https://vlonefarsi.com" },
+    link: { title: "vlonefarsi", href: "https://vlonefarsi.ir" },
   },
 ];
 
