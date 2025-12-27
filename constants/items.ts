@@ -57,23 +57,33 @@ export const WORK_ITEMS = [
     image: "/images/learnpov.jpg",
     link: { title: "learnpov", href: "https://learnpov.com" },
   },
+  {
+    compony: "@vlonefarsi",
+    position: "Founder, Frontend Developer",
+    description: "official website of vlonefarsi instagram brands",
+    image: "/images/vlonefarsi.jpg",
+    link: { title: "vlonefarsi", href: "https://vlonefarsi.com" },
+  },
 ];
 
 export const PROJECTS_ITEMS = [
   {
     title: "@vlonefarsi website",
     description: "serverless e-commerce app",
-    image: "https://raw.githubusercontent.com/cwpslxck/vlonefarsi/refs/heads/main/Preview.jpg",
-    video: 'https://vlonefarsi-phonecase.storage.iran.liara.space/portfolio/vlonefarsi.mp4',
+    image:
+      "https://raw.githubusercontent.com/cwpslxck/vlonefarsi/refs/heads/main/Preview.jpg",
+    video:
+      "https://vlonefarsi-phonecase.storage.iran.liara.space/portfolio/vlonefarsi.mp4",
     link: { title: "app", href: "https://vlonefarsi.ir" },
-    items: ["nextjs", 'supabase', 'shadcnui'],
+    items: ["nextjs", "supabase", "shadcnui"],
   },
   {
     title: "BasicNote",
     description: "Local-first note app with cool UI",
-    image: "https://raw.githubusercontent.com/cwpslxck/basicnote/refs/heads/main/Preview.jpg",
+    image:
+      "https://raw.githubusercontent.com/cwpslxck/basicnote/refs/heads/main/Preview.jpg",
     link: { title: "github", href: "https://github.com/cwpslxck/basicnote" },
-    items: ["nextjs", 'tailwindcss']
+    items: ["nextjs", "tailwindcss"],
   },
   // {
   //   title: "To-Farsi",
