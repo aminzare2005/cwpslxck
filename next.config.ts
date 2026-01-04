@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "raw.githubusercontent.com",
         port: "",
-        pathname: "/cwpslxck/**",
+        pathname: "/aminzare2005/**",
       },
     ],
   },

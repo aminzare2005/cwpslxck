@@ -14,8 +14,8 @@ export default function Home() {
       <Hero />
       <About />
       <Work />
-      {/* <Projects /> */}
       <Education />
+      <Projects />
       <Status />
       <DesignsSection />
       <Timeline />

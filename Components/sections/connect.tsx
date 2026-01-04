@@ -13,9 +13,9 @@ function Connect() {
           <a
             title="Email me for projects & connection"
             className="text-blue-500 hover:underline"
-            href="mailto:2005aminzare@gmail.com"
+            href="mailto:hi@aminzare.me"
           >
-            2005aminzare@gmail.com
+            hi@aminzare.me
           </a>{" "}
           or
           <br />

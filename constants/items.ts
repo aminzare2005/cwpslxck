@@ -68,28 +68,41 @@ export const WORK_ITEMS = [
 
 export const PROJECTS_ITEMS = [
   {
-    title: "@vlonefarsi website",
-    description: "serverless e-commerce app",
+    title: "hand detector",
+    description:
+      "self-hosted ai teachable machine that detects your hand in your webcam",
     image:
-      "https://raw.githubusercontent.com/cwpslxck/vlonefarsi/refs/heads/main/Preview.jpg",
-    video:
-      "https://vlonefarsi-phonecase.storage.iran.liara.space/portfolio/vlonefarsi.mp4",
-    link: { title: "app", href: "https://vlonefarsi.ir" },
-    items: ["nextjs", "supabase", "shadcnui"],
+      "https://raw.githubusercontent.com/aminzare2005/hand-detector/refs/heads/main/Preview.jpg",
+    link: {
+      title: "gihtub",
+      href: "https://github.com/aminzare2005/hand-detector",
+    },
+    items: ["ai", "vite"],
   },
   {
-    title: "BasicNote",
-    description: "Local-first note app with cool UI",
+    title: "Basic Note",
+    description: "Local-first note-taking app with cool UI",
     image:
-      "https://raw.githubusercontent.com/cwpslxck/basicnote/refs/heads/main/Preview.jpg",
+      "https://raw.githubusercontent.com/aminzare2005/basicnote/refs/heads/main/Preview.jpg",
+    video: "",
     link: { title: "github", href: "https://github.com/cwpslxck/basicnote" },
     items: ["nextjs", "tailwindcss"],
   },
-  // {
-  //   title: "To-Farsi",
-  //   description: "simple npm package to convert english digits to farsi digits.",
-  //   image: "https://raw.githubusercontent.com/cwpslxck/to-farsi/refs/heads/main/Preview.jpg",
-  //   link: { title: "NPM", href: "https://www.npmjs.com/package/to-farsi" },
-  //   items: ["npm", "open-source"],
-  // },
+  {
+    title: "Todo App",
+    description: "todo list app with feature to download a .png of your todo",
+    image:
+      "https://raw.githubusercontent.com/aminzare2005/TodoList/refs/heads/main/Preview.jpg",
+    link: { title: "github", href: "https://github.com/aminzare2005/TodoList" },
+    items: ["reactjs", "tailwindcss"],
+  },
+  {
+    title: "To-Farsi",
+    description:
+      "simple npm package to convert english digits to farsi digits.",
+    image:
+      "https://raw.githubusercontent.com/aminzare2005/to-farsi/refs/heads/main/Preview.jpg",
+    link: { title: "npm", href: "https://www.npmjs.com/package/to-farsi" },
+    items: ["npm", "open-source"],
+  },
 ];
