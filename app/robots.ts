@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       //   disallow: [],
     },
-    sitemap: "https://cwpslxck.ir/sitemap.xml",
+    sitemap: "https://aminzare.me/sitemap.xml",
   };
 }

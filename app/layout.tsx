@@ -31,7 +31,7 @@ export const metadata: Metadata = {
       url: "/favicon.ico",
     },
   },
-  metadataBase: new URL("https://cwpslxck.ir"),
+  metadataBase: new URL("https://aminzare.me"),
   alternates: {
     canonical: "/",
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Amin Zare | Frontend Developer & Designer",
     description:
       "Portfolio of Amin Zare - Experienced Digital Creator & Frontend Developer specializing in React, Next.js, and modern web technologies.",
-    url: "https://cwpslxck.ir",
+    url: "https://aminzare.me",
     siteName: "Amin Zare Portfolio",
     images: [
       {
