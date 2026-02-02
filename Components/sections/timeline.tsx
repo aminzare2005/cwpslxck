@@ -66,7 +66,7 @@ function Timeline() {
             <p>
               Joined different startups,
               <br />
-              made connections, bootcamps, art school,
+              made connections, bootcamps,
               <br />
               and product management.
             </p>
@@ -91,7 +91,7 @@ function Timeline() {
             <div className="text-lg font-bold">A defining year!</div>
             <p>Launching products, building teams, going all-in on business,
               <br />
-              and maybe documenting on livestreams!
+              and maybe youtube videos!
             </p>
           </div>
           {/* <hr /> */}

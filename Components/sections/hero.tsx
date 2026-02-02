@@ -29,7 +29,7 @@ function Hero() {
             <div className="size-28 md:size-24">
               <Image
                 draggable="false"
-                className="object-cover rounded-2xl md:rounded-3xl"
+                className="object-cover rounded-2xl md:rounded-3xl from-zinc-200 via-zinc-100 to-zinc-300 bg-linear-to-br"
                 alt="Avatar Picture"
                 src={"https://github.com/aminzare2005.png"}
                 fill

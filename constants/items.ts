@@ -47,13 +47,13 @@ export const WORK_ITEMS = [
     position: "Founder, Frontend Developer",
     description: "digital creative studio with focus on building cool apps",
     image: "/images/yxn.png",
-    link: { title: "yxn", href: "https://www.linkedin.com/company/yxn" },
+    link: { title: "yxn", href: "https://yxn.aminzare.me" },
   },
   {
     compony: "LearnPOV",
     position: "Frontend Developer",
     description:
-      "A social learning network for sharing knowledge and growing together",
+      "a social learning network for sharing knowledge and growing together",
     image: "/images/learnpov.jpg",
     link: { title: "learnpov", href: "https://learnpov.com" },
   },
@@ -80,8 +80,8 @@ export const PROJECTS_ITEMS = [
     items: ["ai", "vite"],
   },
   {
-    title: "Basic Note",
-    description: "Local-first note-taking app with cool UI",
+    title: "basic note",
+    description: "local-first note-taking app with cool UI",
     image:
       "https://raw.githubusercontent.com/aminzare2005/basicnote/refs/heads/main/Preview.jpg",
     video: "",
@@ -89,7 +89,7 @@ export const PROJECTS_ITEMS = [
     items: ["nextjs", "tailwindcss"],
   },
   {
-    title: "Todo App",
+    title: "todo app",
     description: "todo list app with feature to download a .png of your todo",
     image:
       "https://raw.githubusercontent.com/aminzare2005/TodoList/refs/heads/main/Preview.jpg",
@@ -97,7 +97,7 @@ export const PROJECTS_ITEMS = [
     items: ["reactjs", "tailwindcss"],
   },
   {
-    title: "To-Farsi",
+    title: "to-farsi",
     description:
       "simple npm package to convert english digits to farsi digits.",
     image:

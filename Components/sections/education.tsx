@@ -28,7 +28,7 @@ function Education() {
         </div>
         <div className="w-full">
           <p className="opacity-85">
-            In this bootcamp, I learned product management basics and AIPM,
+            in this bootcamp, I learned product management basics and AIPM,
             <br />
             and we built a chatbot app from idea to launch
           </p>
