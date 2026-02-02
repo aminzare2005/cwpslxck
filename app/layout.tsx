@@ -9,7 +9,7 @@ const font = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Amin Zare (@cwpslxck)",
+  title: "Amin Zare (@amindev)",
   description:
     "Portfolio of Amin Zare (@cwpslxck) - Experienced Digital Creator & Frontend Developer specializing in React, Next.js, and modern web technologies. Browse my projects and skills.",
   keywords:

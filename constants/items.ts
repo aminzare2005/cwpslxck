@@ -85,7 +85,7 @@ export const PROJECTS_ITEMS = [
     image:
       "https://raw.githubusercontent.com/aminzare2005/basicnote/refs/heads/main/Preview.jpg",
     video: "",
-    link: { title: "github", href: "https://github.com/cwpslxck/basicnote" },
+    link: { title: "github", href: "https://github.com/aminzare2005/basicnote" },
     items: ["nextjs", "tailwindcss"],
   },
   {

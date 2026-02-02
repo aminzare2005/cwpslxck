@@ -43,7 +43,7 @@ export default async function BlogPostPage({
                   alt="Profile"
                   loading="lazy"
                   className="rounded-full size-9"
-                  src={"https://github.com/cwpslxck.png"}
+                  src={"https://github.com/aminzare2005.png"}
                 />
                 <p>امین زارع</p>
                 <Link
