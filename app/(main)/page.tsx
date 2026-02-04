@@ -15,8 +15,8 @@ export default function Home() {
       <About />
       <Work />
       <Education />
-      <Projects />
       <Status />
+      <Projects />
       <DesignsSection />
       <Timeline />
       <Connect />

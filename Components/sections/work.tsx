@@ -24,7 +24,7 @@ function Work() {
                 className="size-10 rounded-lg"
               />
               <div className="flex flex-col">
-                <span className="font-semibold">{item.position}</span>
+                <b>{item.position}</b>
                 <span className="tracking-wider text-sm font-light opacity-85">
                   {item.compony}
                 </span>
@@ -32,14 +32,13 @@ function Work() {
             </div>
           </div>
           <div className="w-full">
-            <p>{item.description}</p>
+            <p className="opacity-85">{item.description}</p>
             <Link
               className="self-start py-1 gap-1 flex justify-start text-blue-500 items-center text-sm"
               target="_blank"
               href={item.link.href}
             >
               <Link2Icon size={18} />
-              {"visit "}
               {item.link.title}
             </Link>
           </div>

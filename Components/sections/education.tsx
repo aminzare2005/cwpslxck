@@ -6,7 +6,7 @@ import { Link2Icon } from "lucide-react";
 
 function Education() {
   return (
-    <Section className="grid grid-cols-1">
+    <Section className="grid grid-cols-1" title="Certificates">
       <div className="flex flex-col w-full group justify-center items-center gap-2 bg-white p-6 border border-black/10 rounded-xl hover:translate-y-[1px] duration-300">
         <div className="flex w-full justify-between">
           <div className="flex items-center gap-2">
@@ -19,18 +19,16 @@ function Education() {
               className="size-12 rounded-lg"
             />
             <div className="flex flex-col">
-              <span className="font-semibold">AIPM</span>
+              <b>AIPM</b>
               <span className="tracking-wider text-sm font-light opacity-85">
-                Touring bootcamp- be5t.ir
+                Touring Bootcamp (be5t.ir)
               </span>
             </div>
           </div>
         </div>
         <div className="w-full">
           <p className="opacity-85">
-            in this bootcamp, I learned product management basics and AIPM,
-            <br />
-            and we built a chatbot app from idea to launch
+            i learned pm and aipm basics with help of industry top mentors
           </p>
           <Link
             className="self-start py-1 gap-1 flex justify-start text-blue-500 items-center text-sm"

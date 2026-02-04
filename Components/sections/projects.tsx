@@ -6,7 +6,7 @@ import { Link2Icon } from "lucide-react";
 
 function Projects() {
   return (
-    <Section classNameWrapper="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <Section title="Projects" classNameWrapper="grid grid-cols-1 md:grid-cols-2 gap-4">
       {PROJECTS_ITEMS.map((item, i) => (
         <div
           key={i}
@@ -14,7 +14,7 @@ function Projects() {
         >
           <div className="flex flex-col w-full gap-2">
             {/* بخش تصویر یا ویدیو */}
-            <div className="w-full flex justify-start">
+            <div className="w-full flex justify-start from-transparent to-zinc-100 bg-linear-to-t">
               {item.video ? (
                 // نمایش ویدیو/GIF
                 <video
@@ -33,25 +33,25 @@ function Projects() {
                   src={item.image}
                   alt={item.title}
                   width={320}
-                  height={180}
+                  height={160}
                   draggable="false"
-                  className="w-full object-cover aspect-video rounded-t-xl"
+                  className="w-full group-hover:scale-103 duration-300 object-cover aspect-video rounded-t-xl"
                 />
               )}
             </div>
-            <div className="flex flex-col px-4 gap-0.5">
-              <span className="font-semibold text-lg">{item.title}</span>
+            <div className="flex flex-col px-4 gap-1 -mt-4">
+              <b className="text-lg">{item.title}</b>
               <div className="inline-flex w-full justify-start rtl:justify-end gap-2 flex-wrap">
                 {item.items.map((ii, i) => (
                   <div
-                    className="px-1.5 font-mono py-0.5 border text-sm rounded-sm"
+                    className="px-1 font-mono border opacity-80 text-sm rounded-sm"
                     key={i}
                   >
                     {ii}
                   </div>
                 ))}
               </div>
-              <p className="opacity-85">{item.description}</p>
+              <p className="opacity-85 leading-tight">{item.description}</p>
             </div>
           </div>
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Rubik, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Footer from "@/Components/footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const font = Inter({
   subsets: ["latin"],
@@ -11,9 +12,7 @@ const font = Inter({
 export const metadata: Metadata = {
   title: "Amin Zare (@cwpslxck)",
   description:
-    "Portfolio of Amin Zare (@cwpslxck) - Experienced Digital Creator & Frontend Developer specializing in React, Next.js, and modern web technologies. Browse my projects and skills.",
-  keywords:
-    "Amin Zare, cwpslxck, Frontend Developer, Digital Creator",
+  "Digital Creator & Frontend Developer",
   authors: [{ name: "Amin Zare" }],
   creator: "Amin Zare",
   publisher: "Amin Zare",
@@ -36,29 +35,28 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Amin Zare | Frontend Developer & Designer",
+    title: "Amin Zare (@cwpslxck)",
     description:
-      "Portfolio of Amin Zare - Experienced Digital Creator & Frontend Developer specializing in React, Next.js, and modern web technologies.",
+      "Digital Creator & Frontend Developer",
     url: "https://aminzare.me",
     siteName: "Amin Zare Portfolio",
     images: [
       {
-        url: "/assets/preview.png",
+        url: "/assets/preview-twitter.png",
         width: 1200,
         height: 630,
-        alt: "Amin Zare - Frontend Developer Portfolio",
+        alt: "Amin Zare - Digital Creator & Frontend Developer",
       },
     ],
     locale: "en_US",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    images: "/assets/preview.png",
-    title: "Amin Zare | Frontend Developer & Designer",
-    description:
-      "Portfolio website of Amin Zare (@cwpslxck) - Frontend Developer & Digital Creator",
-    creator: "Amin Zare - @cwpslxck",
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: "/assets/preview-twitter.png",
+      title: "aminzare.me",
+      description:
+      "Digital Creator & Frontend Developer",
   },
   robots: {
     index: true,
@@ -87,6 +85,7 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
+      <Analytics />
     </html>
   );
 }

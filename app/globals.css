@@ -42,3 +42,7 @@ a.external-links {
 .load {
   @apply bg-foreground/20 animate-pulse rounded-md text-transparent;
 }
+
+.timeline-vertical li {
+  @apply py-0
+}

@@ -7,7 +7,7 @@ function Connect() {
     <Section>
       <div className="flex flex-col items-center gap-3 py-6">
         <p className="text-3xl md:text-4xl font-bold">Collabrate with me</p>
-        <p className="text-center text-base md:text-xl">
+        <p className="text-center text-base md:text-xl leading-tight">
           contact me via
           <br />
           <a
@@ -23,7 +23,7 @@ function Connect() {
         </p>
         <div
           dir="ltr"
-          className="w-full pt-6 text-sm font-light flex gap-1 justify-center items-center"
+          className="w-full pt-6 text-sm font-semibold flex gap-1 justify-center items-center"
         >
           Amin Zare <span>✦</span>
           <DisplayVersion />
