@@ -23,7 +23,7 @@ function Connect() {
         </p>
         <div
           dir="ltr"
-          className="w-full pt-6 text-sm font-semibold flex gap-1 justify-center items-center"
+          className="w-full pt-6 text-sm font-light flex gap-1 justify-center items-center"
         >
           Amin Zare <span>✦</span>
           <DisplayVersion />
