@@ -19,7 +19,7 @@ function Status() {
             dir="ltr"
             className="md:text-7xl text-5xl font-extrabold tracking-tight drop-shadow-xl"
           >
-            +195
+            +220
           </div>
           <p>Github Follower</p>
         </div>
