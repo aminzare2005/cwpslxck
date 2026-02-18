@@ -1,12 +1,12 @@
 import { GALLERY_ITEMS } from "@/constants/items";
 import Image from "next/image";
 
-export default async function DesignsPage() {
+export default function DesignsPage() {
   return (
-    <div className="px-5 py-8 max-w-sm mx-auto">
-      <div className="flex flex-col gap-4">
-        {GALLERY_ITEMS.reverse().map((item, i) => (
-          <div key={item.url} className="w-full flex gap-2 flex-col">
+    <div className="px-5 py-8 mx-auto">
+      <div className="columns-2 gap-4 space-y-4">
+        {[...GALLERY_ITEMS].reverse().map((item) => (
+          <div key={item.url} className="break-inside-avoid">
             <Image
               alt={item.title}
               src={item.url}

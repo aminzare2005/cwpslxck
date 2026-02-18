@@ -4,27 +4,23 @@ export const GALLERY_ITEMS = [
     url: "/gallery/1.png",
   },
   {
-    title: "UI post card design for @TRXPFA",
-    url: "/gallery/2.png",
-  },
-  {
     title: "Banner design for github project",
     url: "/gallery/3.jpg",
   },
   {
-    title: "Sticker design for @VLONEFARSI",
+    title: "Printable Ad Sticker Design for @VLONEFARSI",
     url: "/gallery/4.png",
   },
   {
-    title: "Character design for personal brand",
+    title: "Character Design for Personal Brand",
     url: "/gallery/5.jpg",
   },
   {
-    title: "Hiring slide banner for @YXNSTUDIO",
+    title: "Hiring Slide Banner for @YXNSTUDIO",
     url: "/gallery/6.png",
   },
   {
-    title: "Story banner for FINGER CODER: CODE NEST",
+    title: "Story Banner for FINGER CODER: CODE NEST",
     url: "/gallery/7.jpg",
   },
   {
@@ -32,12 +28,20 @@ export const GALLERY_ITEMS = [
     url: "/gallery/8.png",
   },
   {
-    title: "Avatar design for @PERSIANGENZ",
+    title: "Avatar Design for @PERSIANGENZ",
     url: "/gallery/9.png",
   },
   {
     title: "Banner of FINGER CODER: PROMPT DESIGN",
     url: "/gallery/10.png",
+  },
+  {
+    title: "Banner for ShirazLinux: #ILOVEFREESOFTWARE",
+    url: "/gallery/11.png",
+  },
+  {
+    title: "Logo Design for Personal Brand",
+    url: "/gallery/12.png",
   },
 ];
 
