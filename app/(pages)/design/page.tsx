@@ -1,11 +1,11 @@
-import { GALLERY_ITEMS } from "@/constants/items";
+import { DESIGNS_ITEMS } from "@/constants/items";
 import Image from "next/image";
 
 export default function DesignsPage() {
   return (
     <div className="px-5 py-8 mx-auto">
       <div className="columns-2 gap-4 space-y-4">
-        {[...GALLERY_ITEMS].reverse().map((item) => (
+        {[...DESIGNS_ITEMS].reverse().map((item) => (
           <div key={item.url} className="break-inside-avoid">
             <Image
               alt={item.title}
