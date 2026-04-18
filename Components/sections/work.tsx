@@ -34,7 +34,8 @@ function Work() {
           <div className="w-full">
             <p className="opacity-85">{item.description}</p>
             <Link
-              className="self-start py-1 gap-1 flex justify-start text-blue-500 items-center text-sm"
+            // replace hidden w flex
+              className="self-start hidden py-1 gap-1 justify-start text-blue-500 items-center text-sm"
               target="_blank"
               href={item.link.href}
             >

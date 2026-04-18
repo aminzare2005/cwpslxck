@@ -6,7 +6,10 @@ import { Link2Icon } from "lucide-react";
 
 function Projects() {
   return (
-    <Section title="Projects" classNameWrapper="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <Section
+      title="Projects"
+      classNameWrapper="grid grid-cols-1 md:grid-cols-2 gap-4"
+    >
       {PROJECTS_ITEMS.map((item, i) => (
         <div
           key={i}
@@ -14,7 +17,8 @@ function Projects() {
         >
           <div className="flex flex-col w-full gap-2">
             {/* بخش تصویر یا ویدیو */}
-            <div className="w-full flex justify-start from-transparent to-zinc-100 bg-linear-to-t">
+            {/* replace hidden w flex */}
+            <div className="w-full hidden justify-start from-transparent to-zinc-100 bg-linear-to-t">
               {item.video ? (
                 // نمایش ویدیو/GIF
                 <video
@@ -39,7 +43,7 @@ function Projects() {
                 />
               )}
             </div>
-            <div className="flex flex-col px-4 gap-1 -mt-4">
+            <div className="flex flex-col p-4 gap-1">
               <b className="text-lg">{item.title}</b>
               <div className="inline-flex w-full justify-start rtl:justify-end gap-2 flex-wrap">
                 {item.items.map((ii, i) => (
@@ -56,7 +60,8 @@ function Projects() {
           </div>
 
           {/* بخش محتوا */}
-          <div className="w-full flex flex-col gap-1 px-4 pb-2">
+          {/* replace hidden w flex */}
+          <div className="w-full hidden flex-col gap-1 px-4 pb-2">
             <Link
               className="self-start py-1 gap-1 flex justify-start text-blue-500 items-center text-sm hover:text-blue-700 transition-colors"
               target="_blank"

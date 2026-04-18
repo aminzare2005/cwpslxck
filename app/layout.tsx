@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
-import { Inter, Rubik, Space_Grotesk } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "@/Components/footer";
-import { Analytics } from "@vercel/analytics/next";
 
-const font = Inter({
-  subsets: ["latin"],
+const font = localFont({
+  src: "../public/assets/fonts/Inter.woff2",
   display: "swap",
 });
 
 export const metadata: Metadata = {
   title: "Amin Zare (@cwpslxck)",
-  description:
-  "Digital Creator & Frontend Developer",
+  description: "Digital Creator & Frontend Developer",
   authors: [{ name: "Amin Zare" }],
   creator: "Amin Zare",
   publisher: "Amin Zare",
@@ -36,8 +34,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Amin Zare (@cwpslxck)",
-    description:
-      "Digital Creator & Frontend Developer",
+    description: "Digital Creator & Frontend Developer",
     url: "https://aminzare.me",
     siteName: "Amin Zare Portfolio",
     images: [
@@ -50,13 +47,12 @@ export const metadata: Metadata = {
     ],
     locale: "en_US",
     type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      images: "/assets/preview-twitter.png",
-      title: "aminzare.me",
-      description:
-      "Digital Creator & Frontend Developer",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: "/assets/preview-twitter.png",
+    title: "aminzare.me",
+    description: "Digital Creator & Frontend Developer",
   },
   robots: {
     index: true,
@@ -85,7 +81,6 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
-      <Analytics />
     </html>
   );
 }
