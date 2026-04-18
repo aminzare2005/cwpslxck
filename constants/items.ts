@@ -47,12 +47,20 @@ export const DESIGNS_ITEMS = [
 
 export const GALLERY_ITEMS = [
   {
-    title: "developer gathering 1",
-    url: "/designs/12.png",
+    title: "Last shirazlinux gathering in 1404",
+    url: "/gallery/5.jpg",
   },
   {
-    title: "developer gathering 2",
-    url: "/designs/11.png",
+    title: "Amin working on holydays",
+    url: "/gallery/6.jpg",
+  },
+  {
+    title: "Touring bootcamp (AIPM)",
+    url: "/gallery/2.jpg",
+  },
+  {
+    title: "Shiraztux gathering",
+    url: "/gallery/1.jpg",
   },
 ];
 
