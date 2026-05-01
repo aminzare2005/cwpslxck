@@ -194,6 +194,17 @@ export const COMMUNITY_ITEMS = [
   },
 ];
 
+export const STATUS_ITEMS = [
+  {
+    name: "Github Followers",
+    number: "+210",
+  },
+  {
+    name: "Github Projects",
+    number: "+14",
+  },
+];
+
 export const soft_skills = ["Git", "Swagger", "Figma", "v0", "bolt.new"];
 
 export const hard_skills = [

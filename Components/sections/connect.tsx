@@ -15,7 +15,7 @@ function Connect() {
             className="text-blue-500 hover:underline"
             href="mailto:hi@aminzare.me"
           >
-            hi@aminzare.me
+            aminzare@mail.ir
           </a>{" "}
           or
           <br />

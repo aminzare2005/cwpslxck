@@ -7,42 +7,37 @@ import {
   LinkedinIcon,
 } from "lucide-react";
 import { BsTwitterX } from "react-icons/bs";
+import BaleIcon from "./icons/bale-icon";
 
 const menuItems = [
   {
-    title: "Visit home page",
     href: "/",
     icon: <HouseIcon />,
     external: false,
   },
   {
-    title: "Visit design page",
     href: "/design",
     icon: <ImagesIcon />,
     external: false,
   },
   {
-    title: "Visit my Github",
     href: "/github",
     icon: <GithubIcon />,
     external: true,
   },
   {
-    title: "Visit my LinkedIn",
     href: "/linkedin",
     icon: <LinkedinIcon />,
     external: true,
   },
   {
-    title: "Visit my Instagram",
-    href: "/instagram",
-    icon: <InstagramIcon />,
+    href: "/x",
+    icon: <BsTwitterX />,
     external: true,
   },
   {
-    title: "Visit my X (Twitter)",
-    href: "/x",
-    icon: <BsTwitterX />,
+    href: "/bale",
+    icon: <BaleIcon />,
     external: true,
   },
 ];
@@ -57,10 +52,9 @@ function Footer() {
         {menuItems.map((item, index) => (
           <Link
             key={index}
-            title={item.title}
             href={item.href}
             target={item.external ? "_blank" : "_self"}
-            className="size-12 rounded-full flex items-center justify-center"
+            className="w-full h-full flex items-center justify-center [&_svg]:size-6"
           >
             {item.icon}
           </Link>
