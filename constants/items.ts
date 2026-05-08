@@ -70,8 +70,8 @@ export const GALLERY_ITEMS = [
 
 export const WORK_ITEMS = [
   {
-    compony: "YXN Studio",
-    position: "Founder",
+    compony: "WEB CREATOR",
+    position: "Co-Founder",
     description: "digital creative studio with focus on building cool web apps",
     image: "/images/yxn.png",
     link: {
@@ -80,19 +80,19 @@ export const WORK_ITEMS = [
     },
   },
   {
+    compony: "@vlonefarsi",
+    position: "Frontend Developer",
+    description: "e-commerce website of vlonefarsi instagram brand",
+    image: "/images/vlonefarsi.jpg",
+    link: { title: "visit vlonefarsi.ir", href: "https://vlonefarsi.ir" },
+  },
+  {
     compony: "LearnPOV",
     position: "Frontend Developer",
     description:
       "social learning network for sharing knowledge and growing together",
     image: "/images/learnpov.jpg",
     link: { title: "visit learnpov.com", href: "https://learnpov.com" },
-  },
-  {
-    compony: "@vlonefarsi",
-    position: "Frontend Developer",
-    description: "e-commerce website of vlonefarsi instagram brand",
-    image: "/images/vlonefarsi.jpg",
-    link: { title: "visit vlonefarsi.ir", href: "https://vlonefarsi.ir" },
   },
 ];
 
@@ -164,7 +164,7 @@ export const PROJECTS_ITEMS = [
 export const COMMUNITY_ITEMS = [
   {
     name: "Finger Coder",
-    role: "Graphic Designer",
+    role: "graphic designer",
     logo: "/images/finger-coder.png",
     color: "02c39a",
     link: {
@@ -174,7 +174,7 @@ export const COMMUNITY_ITEMS = [
   },
   {
     name: "Asr Didani (Shiraz)",
-    role: "Video Editor",
+    role: "video editor",
     logo: "/images/asrdidani.png",
     color: "a12eac",
     link: {
@@ -184,7 +184,7 @@ export const COMMUNITY_ITEMS = [
   },
   {
     name: "Shiraz Linux",
-    role: "Graphic Designer",
+    role: "graphic designer",
     logo: "/images/shiraz-linux.png",
     color: "f1592d",
     link: {
@@ -197,7 +197,7 @@ export const COMMUNITY_ITEMS = [
 export const STATUS_ITEMS = [
   {
     name: "Github Followers",
-    number: "+210",
+    number: "+200",
   },
   {
     name: "Github Projects",

@@ -1,6 +1,7 @@
 import Section from "../section";
 import CalculateAge from "../calculateAge";
 import Image from "next/image";
+import InlineItemCard from "../ui/inline-item-card";
 
 function Hero() {
   return (
@@ -11,18 +12,10 @@ function Hero() {
         </h1>
         <div className="flex flex-row justify-between items-end md:items-start gap-4">
           <div className="flex flex-wrap sm:w-2/3 justify-start gap-2">
-            <span className="px-3 py-1 from-zinc-200 via-zinc-100 to-zinc-300 bg-linear-to-br rounded-full font-medium">
-              ✦ <CalculateAge /> years-old
-            </span>
-            <span className="px-3 py-1 from-zinc-200 via-zinc-100 to-zinc-300 bg-linear-to-br rounded-full font-medium">
-              ✦ digital creator
-            </span>
-            <span className="px-3 py-1 from-zinc-200 via-zinc-100 to-zinc-300 bg-linear-to-br rounded-full font-medium">
-              ✦ frontend dev
-            </span>
-            <span className="px-3 py-1 from-zinc-200 via-zinc-100 to-zinc-300 bg-linear-to-br rounded-full font-medium">
-              ✦ pm intern
-            </span>
+            <InlineItemCard item={<CalculateAge />} />
+            <InlineItemCard item="digital creator" />
+            <InlineItemCard item="product manager" />
+            <InlineItemCard item="frontend dev" />
           </div>
 
           <div className="relative">
@@ -31,9 +24,9 @@ function Hero() {
               <div className="size-28 md:size-24">
                 <Image
                   draggable="false"
-                  className="object-cover saturate-50 brightness-90 rounded-2xl md:rounded-3xl from-zinc-200 via-zinc-100 to-zinc-300 bg-linear-to-br"
+                  className="object-cover brightness-90 rounded-2xl md:rounded-3xl from-zinc-200 via-zinc-100 to-zinc-300 bg-linear-to-br"
                   alt="Avatar Picture"
-                  src={"/assets/pfp.jpg"}
+                  src={"https://github.com/aminzare2005.png"}
                   fill
                   sizes="(max-width: 768px) 128px, (max-width: 1024px) 160px, 192px"
                   loading="eager"
@@ -47,11 +40,11 @@ function Hero() {
       <div className="h-28 w-28 hidden sm:block">
         <Image
           draggable="false"
-          className="object-cover saturate-50 brightness-90 h-full w-full rounded-2xl md:rounded-3xl from-zinc-200 via-zinc-100 to-zinc-300 bg-linear-to-br"
+          className="object-cover brightness-90 h-full w-full rounded-2xl md:rounded-3xl from-zinc-200 via-zinc-100 to-zinc-300 bg-linear-to-br"
           alt="Avatar Picture"
           height={96}
           width={96}
-          src={"/assets/pfp.jpg"}
+          src={"https://github.com/aminzare2005.png"}
           loading="eager"
           priority
         />

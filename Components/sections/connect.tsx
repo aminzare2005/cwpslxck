@@ -15,15 +15,15 @@ function Connect() {
             className="text-blue-500 hover:underline"
             href="mailto:hi@aminzare.me"
           >
-            aminzare@mail.ir
+            hi@aminzare.me
           </a>{" "}
           or
           <br />
-          connect with me on linkedin & instagram
+          connect with me on linkedin and x
         </p>
         <div
           dir="ltr"
-          className="w-full pt-6 text-sm font-light flex gap-1 justify-center items-center"
+          className="w-full pt-6 text-sm flex gap-1 justify-center items-center"
         >
           Amin Zare <span>✦</span>
           <DisplayVersion />

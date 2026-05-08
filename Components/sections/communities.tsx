@@ -27,11 +27,11 @@ export default function Communities() {
                 height={150}
                 src={item.logo || ""}
                 alt={item.name}
-                className={cn("w-full h-auto px-6 md:px-12 pt-4")}
+                className={cn("w-full h-auto px-8 md:px-12 pt-4")}
               />
             </div>
-            <div className="p-4 z-10 flex flex-col justify-center items-center">
-              <b className="text-lg">{item.name}</b>
+            <div className="p-4 z-10 text-center flex flex-col justify-center items-center gap-2">
+              <b className="text-lg leading-tight">{item.name}</b>
               <p className="opacity-85 leading-tight">{item.role}</p>
             </div>
           </div>

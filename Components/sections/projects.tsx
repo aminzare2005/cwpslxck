@@ -44,17 +44,17 @@ function Projects() {
               )}
             </div>
             <div className="flex flex-col p-4 gap-1">
-              <b className="text-lg">{item.title}</b>
               <div className="inline-flex w-full justify-start rtl:justify-end gap-2 flex-wrap">
                 {item.items.map((ii, i) => (
                   <div
-                    className="px-1 font-mono border opacity-80 text-sm rounded-sm"
+                    className="px-1 font-mono bg-black/5 border border-black/20 opacity-80 text-sm rounded-sm"
                     key={i}
                   >
                     {ii}
                   </div>
                 ))}
               </div>
+              <b className="text-lg">{item.title}</b>
               <p className="opacity-85 leading-tight">{item.description}</p>
             </div>
           </div>

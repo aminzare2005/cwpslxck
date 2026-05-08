@@ -14,7 +14,7 @@ function CalculateAge() {
 
   const myAge = calculateAge(new Date(2005, 11, 21));
 
-  return myAge;
+  return `${myAge} years old`;
 }
 
 export default CalculateAge;
